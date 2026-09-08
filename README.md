@@ -6,7 +6,9 @@
 The goal is to simulate how data analysts work behind the scenes in e-commerce or retail environments to use SQL for setting up inventory databases, performing exploratory data analysis, cleaning messy records, and deriving actionable business insights.  
 
 ## 📁 Dataset Overview
-Sourced from Kaggle, this dataset details the product catalog and pricing structure of Zepto, a fast-growing 10-minute grocery delivery platform. It features records across multiple categories such as Fruits & Vegetables, Dairy, Packaged Foods, and Beverages.  
+The dataset was sourced from Kaggle and was originally scraped from Zepto’s official product listings. It mimics what you’d typically encounter in a real-world e-commerce inventory system.
+
+Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate product names exist because the same product may appear multiple times in different package sizes, weights, discounts, or categories to improve visibility – exactly how real catalog data looks.
 Columns:
 - sku_id: Unique identifier for each entry (Auto-increment primary key)  
 - category: Product category  name: Product name
@@ -21,10 +23,10 @@ Columns:
 ## 🔧 Project Workflow
 1. Database & Table Creation
 Initialized the MySQL database environment and structured the inventory table with matching data types:
-SQLCREATE DATABASE zepto_sql_project;
-USE zepto_sql_project;
+ SQLCREATE DATABASE zepto_sql_project;
+ USE zepto_sql_project;
 
-CREATE TABLE zepto(
+ CREATE TABLE zepto(
     sku_id INT AUTO_INCREMENT PRIMARY KEY,
     category VARCHAR(120),
     name VARCHAR(150) NOT NULL,
@@ -35,7 +37,7 @@ CREATE TABLE zepto(
     weightInGms INT,
     outOfStock BOOLEAN,
     quantity INT
-);
+ );
 
 ## 2. 🔍 Data Exploration
 Conducted foundational queries to inspect the data health and shape:
