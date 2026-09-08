@@ -23,7 +23,7 @@ Columns:
 ## 🔧 Project Workflow
 1. Database & Table Creation
 Initialized the MySQL database environment and structured the inventory table with matching data types:
- SQLCREATE DATABASE zepto_sql_project;
+ '''SQLCREATE DATABASE zepto_sql_project;
  USE zepto_sql_project;
 
  CREATE TABLE zepto(
@@ -37,7 +37,7 @@ Initialized the MySQL database environment and structured the inventory table wi
     weightInGms INT,
     outOfStock BOOLEAN,
     quantity INT
- );
+ );'''
 
 ## 2. 🔍 Data Exploration
 Conducted foundational queries to inspect the data health and shape:
