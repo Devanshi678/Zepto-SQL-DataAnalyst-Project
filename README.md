@@ -39,7 +39,7 @@ CREATE TABLE zepto (
     outOfStock BOOLEAN, 
     quantity INT 
 );
-
+```
 ## 2. 🔍 Data Exploration
 Conducted foundational queries to inspect the data health and shape:
 - Counted total rows and pulled sample views.
