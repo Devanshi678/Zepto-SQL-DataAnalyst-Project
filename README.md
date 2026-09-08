@@ -53,6 +53,8 @@ Conducted foundational queries to inspect the data health and shape:
 
 ## 4. 📊 Business Insights & Queries
 - Top 10 Best Value Products: Queried highest discount percentages to surface high-saving items.
+  <img width="551" height="242" alt="image" src="https://github.com/user-attachments/assets/6c675f2b-6300-40ac-b1f6-8e964e2462fe" />
+
 - Missed Revenue Opportunities: Filtered out-of-stock items possessing an MRP higher than the average catalog price.
 - Category Revenue Estimation: Calculated potential revenue generation per category using selling price and available stock.
 - Premium Low-Discount Items: Isolated products priced over ₹500 carrying less than a 10% discount to evaluate organic demand.
@@ -60,4 +62,3 @@ Conducted foundational queries to inspect the data health and shape:
 - Price Per Gram Analysis: Computed value-for-money metrics for items weighing above 100 grams.
 - Weight Segmentation: Grouped products into Light, Medium, and Bulky brackets via conditional case logic to assist delivery planning.
 - Total Inventory Weight: Aggregated total stock weight per category for warehouse storage design.
-
