@@ -56,9 +56,23 @@ Conducted foundational queries to inspect the data health and shape:
   <img width="551" height="242" alt="image" src="https://github.com/user-attachments/assets/6c675f2b-6300-40ac-b1f6-8e964e2462fe" />
 
 - Missed Revenue Opportunities: Filtered out-of-stock items possessing an MRP higher than the average catalog price.
+  <img width="622" height="347" alt="image" src="https://github.com/user-attachments/assets/86e40198-b04f-4ce7-b40f-64f8add1cf52" />
+
 - Category Revenue Estimation: Calculated potential revenue generation per category using selling price and available stock.
+  <img width="287" height="337" alt="image" src="https://github.com/user-attachments/assets/49c2692b-06c7-48e2-b44d-878023c8ea62" />
+
 - Premium Low-Discount Items: Isolated products priced over ₹500 carrying less than a 10% discount to evaluate organic demand.
+  <img width="662" height="540" alt="image" src="https://github.com/user-attachments/assets/f6d34a39-d1a3-43bb-a6da-4e1bec8c603d" />
+
 - Top Average Discount Categories: Ranked top 5 categories by average discount percentage.
+  <img width="420" height="170" alt="image" src="https://github.com/user-attachments/assets/168236f2-1093-4c2b-b865-79053999ff11" />
+
 - Price Per Gram Analysis: Computed value-for-money metrics for items weighing above 100 grams.
+  <img width="615" height="592" alt="image" src="https://github.com/user-attachments/assets/0d794abd-692f-4618-ba40-92929cb88c0c" />
+
 - Weight Segmentation: Grouped products into Light, Medium, and Bulky brackets via conditional case logic to assist delivery planning.
+  <img width="682" height="572" alt="image" src="https://github.com/user-attachments/assets/b11c58f5-5ea4-46c3-8898-fa38898348a4" />
+
 - Total Inventory Weight: Aggregated total stock weight per category for warehouse storage design.
+  <img width="462" height="375" alt="image" src="https://github.com/user-attachments/assets/bc3975b0-9755-4295-b842-ad1608a8a0ef" />
+
