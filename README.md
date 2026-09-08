@@ -23,21 +23,22 @@ Columns:
 ## 🔧 Project Workflow
 1. Database & Table Creation
 Initialized the MySQL database environment and structured the inventory table with matching data types:
-'CREATE DATABASE zepto_sql_project;
- USE zepto_sql_project;
+```sql
+CREATE DATABASE zepto_sql_project; 
+USE zepto_sql_project;
 
- CREATE TABLE zepto(
-    sku_id INT AUTO_INCREMENT PRIMARY KEY,
-    category VARCHAR(120),
-    name VARCHAR(150) NOT NULL,
-    mrp NUMERIC(8,2),
-    discountPercent NUMERIC(4,2),
-    availableQuantity INT,
-    discountedSellingPrice NUMERIC(8,2),
-    weightInGms INT,
-    outOfStock BOOLEAN,
-    quantity INT
- );'
+CREATE TABLE zepto ( 
+    sku_id INT AUTO_INCREMENT PRIMARY KEY, 
+    category VARCHAR(120), 
+    name VARCHAR(150) NOT NULL, 
+    mrp NUMERIC(8,2), 
+    discountPercent NUMERIC(4,2), 
+    availableQuantity INT, 
+    discountedSellingPrice NUMERIC(8,2), 
+    weightInGms INT, 
+    outOfStock BOOLEAN, 
+    quantity INT 
+);
 
 ## 2. 🔍 Data Exploration
 Conducted foundational queries to inspect the data health and shape:
